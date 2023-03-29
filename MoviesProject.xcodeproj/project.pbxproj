@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C32BFAAA29D41A2400BE0486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFAA929D41A2400BE0486 /* AppDelegate.swift */; };
 		C32BFAAC29D41A2400BE0486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFAAB29D41A2400BE0486 /* SceneDelegate.swift */; };
-		C32BFAAE29D41A2400BE0486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFAAD29D41A2400BE0486 /* ViewController.swift */; };
+		C32BFAAE29D41A2400BE0486 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BFAAD29D41A2400BE0486 /* HomePageViewController.swift */; };
 		C32BFAB129D41A2400BE0486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32BFAAF29D41A2400BE0486 /* Main.storyboard */; };
 		C32BFAB329D41A2600BE0486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32BFAB229D41A2600BE0486 /* Assets.xcassets */; };
 		C32BFAB629D41A2600BE0486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32BFAB429D41A2600BE0486 /* LaunchScreen.storyboard */; };
+		C3619C4829D4292B00D39946 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3619C4729D4292B00D39946 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C32BFAA629D41A2400BE0486 /* MoviesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32BFAA929D41A2400BE0486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32BFAAB29D41A2400BE0486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C32BFAAD29D41A2400BE0486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32BFAAD29D41A2400BE0486 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		C32BFAB029D41A2400BE0486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32BFAB229D41A2600BE0486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32BFAB529D41A2600BE0486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32BFAB729D41A2600BE0486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3619C4729D4292B00D39946 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				C32BFAA929D41A2400BE0486 /* AppDelegate.swift */,
 				C32BFAAB29D41A2400BE0486 /* SceneDelegate.swift */,
-				C32BFAAD29D41A2400BE0486 /* ViewController.swift */,
+				C32BFAAD29D41A2400BE0486 /* HomePageViewController.swift */,
+				C3619C4729D4292B00D39946 /* DetailViewController.swift */,
 				C32BFAAF29D41A2400BE0486 /* Main.storyboard */,
 				C32BFAB229D41A2600BE0486 /* Assets.xcassets */,
 				C32BFAB429D41A2600BE0486 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32BFAAE29D41A2400BE0486 /* ViewController.swift in Sources */,
+				C32BFAAE29D41A2400BE0486 /* HomePageViewController.swift in Sources */,
 				C32BFAAA29D41A2400BE0486 /* AppDelegate.swift in Sources */,
 				C32BFAAC29D41A2400BE0486 /* SceneDelegate.swift in Sources */,
+				C3619C4829D4292B00D39946 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
