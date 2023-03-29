@@ -157,6 +157,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Star Wars: The Last Jedi" id="JxK-ei-hSS"/>
+                    <connections>
+                        <outlet property="imageView" destination="VZ2-oq-4gD" id="pM2-xB-XOU"/>
+                        <outlet property="movieIMDb" destination="R5O-UR-bJd" id="SWP-Cp-18X"/>
+                        <outlet property="movieName" destination="Ka2-Kd-6GD" id="VIk-qX-avc"/>
+                        <outlet property="movieSynopsis" destination="cxr-qc-gZZ" id="031-eg-dMG"/>
+                        <outlet property="movieTime" destination="4ZD-rs-L1T" id="xYK-AO-BT8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGq-77-dPc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
