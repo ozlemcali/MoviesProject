@@ -8,14 +8,12 @@
 import UIKit
 
 class HomePageViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
         self.tabBarController?.tabBar.isHidden = false
     }
-
+    
     @IBAction func button(_ sender: Any) {
         performSegue(withIdentifier: "toDetailVC", sender: nil)
     }
