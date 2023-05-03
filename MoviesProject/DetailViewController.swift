@@ -15,6 +15,10 @@ class DetailViewController: UIViewController {
     @IBOutlet private var movieTime: UILabel!
     @IBOutlet private var movieName: UILabel!
     @IBOutlet private var movieImageView: UIImageView!
+    @IBOutlet var favoriteButton: UIButton!
+    var isClicked = true
+    
+    var favoriteMovie = [String : Any]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +31,24 @@ class DetailViewController: UIViewController {
     }
     
     
-    
-    
-    
+    @IBAction func clickedButton(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        
+        
+        if isClicked{
+            if let movieName = movieName.text, let movieImage = movieImageView.image, let movieImageData = movieImage.pngData() {
+                favoriteMovie["name"] = movieName
+                favoriteMovie["image"] = movieImageData
+                defaults.set(favoriteMovie, forKey: "favoriteMovie")
+                favoriteButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+            }
+            
+        } else {
+            defaults.removeObject(forKey: "favoriteMovie")
+            favoriteButton.setImage(UIImage(systemName: "heart"), for: .normal)
+        }
+        
+        isClicked = !isClicked
+        
+    }
 }
